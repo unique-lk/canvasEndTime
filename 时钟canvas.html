@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title时钟canvas</title>
+    <style type="text/css">
+        span{
+            color:#e4393c;
+            font-size: 40px;
+        }
+        div{
+            text-align: center;
+        }
+		canvas{
+			width: 1000px;
+			height: 400px;
+			margin: 0 auto;
+		}
+    </style>
+</head>
+<body style="height: 100%">
+<audio autoplay="autoplay" loop="loop" src="G.E.M.邓紫棋%20-%20再见.mp3">
+</audio>
+    <div>
+        <span id="timeText"></span>
+    </div>
+    <canvas id="canvas" style="display: block;border: 1px solid red ;margin: 0 auto;">
+        该浏览器不支持canvas，请更换浏览器再试！
+    </canvas>
+
+    <script type="text/javascript"></script>
+    <script src="digit.js"></script>
+    <script src="countdown.js"></script>
+</body>
+</html>
